@@ -53,7 +53,7 @@ export default function Portfolio() {
           {filteredEvents.map((event, index) => (
             <article
               key={index}
-              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-neutral-900 transition-all hover:border-orange-500/40 hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-neutral-900 transition-all hover:border-orange-500/40"
             >
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
