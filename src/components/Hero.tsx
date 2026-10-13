@@ -74,10 +74,27 @@ const drawOnCss = `
 }
 @keyframes heroFadeIn { to { opacity: 1; } }
 
+/* Glow pulse once the drawing has finished (~10.5s) */
+.draw-logo {
+  animation: logoPulse 3s ease-in-out 10.5s infinite;
+}
+
+@keyframes logoPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 4px rgba(251, 146, 60, 0.35))
+            drop-shadow(0 0 10px rgba(236, 72, 153, 0.2));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(251, 146, 60, 0.9))
+            drop-shadow(0 0 28px rgba(236, 72, 153, 0.6));
+  }
+}
+
 /* Respect reduced-motion: show the finished state immediately */
 @media (prefers-reduced-motion: reduce) {
   .draw-logo .border-rect,
   .draw-logo text,
+  .draw-logo,
   .hero-fade-in {
     animation: none;
   }
