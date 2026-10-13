@@ -110,13 +110,13 @@ export default function Footer() {
           <p className="text-sm text-gray-600">
             &copy; {new Date().getFullYear()} {siteConfig.djName}. All rights reserved.
           </p>
-         <p className="flex items-center gap-1.5 text-sm text-gray-600">
+         <p className="flex flex-wrap items-center justify-center gap-1.5 text-sm text-gray-600 text-center leading-relaxed">
   Made with <Heart className="h-3.5 w-3.5 text-orange-500 fill-orange-500" /> for music lovers by:{" "}
   <a
     href="https://ctechsolution.tech"
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:underline text-gray-700"
+    className="hover:underline text-gray-700 whitespace-nowrap"
   >
     Community Tech Solutions
   </a>
