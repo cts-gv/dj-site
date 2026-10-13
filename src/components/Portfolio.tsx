@@ -60,7 +60,7 @@ export default function Portfolio() {
                 <img
                    src={event.image}
                    alt={event.title}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 will-change-transform"
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/20 to-transparent transform-gpu" />
                 <span className="absolute top-4 left-4 rounded-full bg-orange-500/90 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
