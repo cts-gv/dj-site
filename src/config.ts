@@ -23,7 +23,7 @@ export const siteConfig = {
 
   // --- About Section ---
   aboutImage: "https://images.pexels.com/photos/19641136/pexels-photo-19641136.jpeg?auto=compress&cs=tinysrgb&w=900",
-  aboutTitle: "About DJ-You",
+  aboutTitle: "About DJ-Mando",
   aboutText:
     "With over a decade behind the decks, DJ-Mando has been the heartbeat of countless celebrations. From intimate weddings to high-energy corporate parties and elegant quinceaneras, every set is crafted to match the vibe of your event. No two crowds are the same — and neither are the mixes. Every song is chosen in real-time based on what the dance floor demands, keeping your guests on their feet all night long.",
 
