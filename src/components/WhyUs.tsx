@@ -32,7 +32,7 @@ export default function WhyUs() {
             Why Choose Us
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-            The DJ-You Difference
+            The DJ-Mando Difference
           </h2>
           <p className="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">
             More than just playing songs — we deliver a complete entertainment experience.
