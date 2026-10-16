@@ -1,20 +1,20 @@
 // ============================================================
-// DJ-You Site Configuration
+// DJ-Mando Site Configuration
 // Edit values below to update content across the entire site.
 // ============================================================
 
 export const siteConfig = {
   // --- Brand ---
-  djName: "DJ-You",
+  djName: "DJ-Mando",
   tagline: "Turning Moments Into Memories",
   slogan: "Unforgettable beats for every celebration",
 
   // --- Contact ---
   phone: "(555) 123-4567",
-  email: "booking@dj-you.com",
-  instagram: "https://instagram.com/djyou",
-  facebook: "https://facebook.com/djyou",
-  tiktok: "https://tiktok.com/@djyou",
+  email: "booking@dj-mando.com",
+  instagram: "https://instagram.com/djmando",
+  facebook: "https://facebook.com/djmando",
+  tiktok: "https://tiktok.com/@djmando",
 
   // --- Hero Video ---
   // Video plays as the hero section background. Poster shows before video loads.
@@ -25,7 +25,7 @@ export const siteConfig = {
   aboutImage: "https://images.pexels.com/photos/19641136/pexels-photo-19641136.jpeg?auto=compress&cs=tinysrgb&w=900",
   aboutTitle: "About DJ-You",
   aboutText:
-    "With over a decade behind the decks, DJ-You has been the heartbeat of countless celebrations. From intimate weddings to high-energy corporate parties and elegant quinceaneras, every set is crafted to match the vibe of your event. No two crowds are the same — and neither are the mixes. Every song is chosen in real-time based on what the dance floor demands, keeping your guests on their feet all night long.",
+    "With over a decade behind the decks, DJ-Mando has been the heartbeat of countless celebrations. From intimate weddings to high-energy corporate parties and elegant quinceaneras, every set is crafted to match the vibe of your event. No two crowds are the same — and neither are the mixes. Every song is chosen in real-time based on what the dance floor demands, keeping your guests on their feet all night long.",
 
   // --- Stats Cards ---
   stats: [
